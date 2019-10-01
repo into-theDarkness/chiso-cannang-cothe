@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chisocannnang</title>
+</head>
+<body>
+<script>
+    let cannang = prompt('nhap can nang cua anh vao day');
+    let chieucao = prompt('nhap chieu cao cua anh vao day');
+    let bmi = cannang/(chieucao*chieucao);
+    if (bmi < 18) {
+        document.write("Thieu can roi anh oi");
+    }
+    else if(bmi < 25){
+        document.write("Dang chuan day anh");
+    }
+    else if (bmi <30){
+        document.write("Thua can roi anh oi");
+
+    }
+    else document.write("Anh qua beo roi day");
+
+</script>
+</body>
+</html>
